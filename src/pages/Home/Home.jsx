@@ -4,16 +4,17 @@ import {
   Row,
   Col
 } from 'react-bootstrap'
-
 import './Home.css'
 
 const Home = () => {
   return(
-    <Container >
-      <Row>
-        <Col className="postContainer">Post</Col>
-      </Row>
-    </Container>
+    <div>
+      <Container >
+        <Row>
+          <Col className="postContainer">Post</Col>
+        </Row>
+      </Container>
+    </div>
   )
 }
 
